@@ -1,0 +1,41 @@
+121.42.208.105:8080/jenkins root Nzj7235939
+
+47.94.89.226
+
+blog：修改后hexo g生成
+
+https://github.com/icodeu/BlogWT
+
+xmind mindmanager
+
+连接服务器
+ssh root@47.94.89.226
+Nzj7235939
+
+
+git常用命令
+拉取 git pull
+添加 git add 打√
+提交 git commit
+推送 git push
+
+linux 常用命令
+查看文件夹 ls
+查看全部 ls -lsa
+查看文件内容 cat
+
+VIM
+vi readme.txt
+保存 :wq
+不保存强制退出 :q!
+
+查看进程
+ps -e
+
+结束进程
+kill 进程ID
+
+查看端口
+netstat -an | grep 3306 
+lsof -i:3306
+

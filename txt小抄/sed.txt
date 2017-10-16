@@ -1,0 +1,53 @@
+sed命令
+
+TODO
+AND
+
+## 增
+第2行下增加sth
+sed '2a sth' 
+
+2-5行每行的下一行增加sth
+sed '2,5a sth' 
+
+2-最后一行每行的下一行增加sth
+sed '2,$a sth' 
+
+2行前增加sth
+sed '2i sth'
+
+
+## 删
+删除第2-5行
+sed '2,5d'
+
+
+## 替换 c->取代
+2-5行的内容为一行的sth
+sed '2,5c sth'
+
+
+## 查
+只显示2-5行的内容(Todo：加不加-n会有区别，不知道为什么)
+sed -n '2,5p'
+
+搜寻有sth关键字的行
+sed -n '/sth/p'
+
+只显示不包含sth的行
+sed '/sth/d'
+
+打印第一个找到的first行到第4行的内容
+sed -n '/first/, 4p'
+
+
+## 字符串替换
+sed 's/origin/after/g'
+
+删除包含delme和delmine
+sed 's/delme//g' | sed 's/delmine//g'
+
+
+
+直接对源文件修改
+sed -i 's/first/second/g' filename

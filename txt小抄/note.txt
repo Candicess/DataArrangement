@@ -1,0 +1,14 @@
+121.42.208.105:8080/jenkins root Nzj7235939
+
+47.94.89.226
+
+hexo g
+
+https://github.com/icodeu/BlogWT
+
+xmind mindmanager
+
+连接服务器
+ssh root@47.94.89.226
+Nzj7235939
+

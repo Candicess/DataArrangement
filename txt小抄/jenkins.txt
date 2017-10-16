@@ -1,0 +1,7 @@
+maven 依赖构建管理
+
+构建  mvn install -> .war -> deploy to remote server webapp/*.war
+
+bitbucket
+icodeyou@sina.com
+Toast@Log0
